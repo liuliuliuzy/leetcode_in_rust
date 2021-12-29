@@ -71,6 +71,37 @@ impl Solution {
             tail = &mut tail.as_mut().unwrap().next;
         }
     }
+
+    // 更加节省空间的做法
+    pub fn add_two_numbers_v2(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>>{
+        let mut first = Some(Box::new(ListNode::new(0)));
+        let mut next = &mut first;
+        let mut num = 0;
+
+        let mut l1 = &l1;
+        let mut l2 = &l2;
+
+        loop {
+            if l1.is_none() && l2.is_none() && num == 0 {
+                break;
+            }
+
+            let val1 = if let Some(val) = l1 { val.val } else { 0 };
+            let val2 = if let Some(val) = l2 { val.val } else { 0 };
+            let total = val1 + val2 + num;
+
+            l1 = if let Some(val) = l1 { &val.next } else { l1 };
+            l2 = if let Some(val) = l2 { &val.next } else { l2 };
+            num = total / 10;
+
+            if let Some(val) = next {
+                val.next = Some(Box::new(ListNode::new(total % 10)));
+                next = &mut val.next;
+            }
+        }
+
+        first.unwrap().next
+    }
 }
 
 // #[cfg(test)] 表示，只有在 cargo test test_0002的时候才会编译以下代码，cargo build的时候以下代码是不会被编译的

@@ -5,10 +5,3 @@ fn main() {
     println!("Hello, 这里是zyleo学习rust的leetcode刷题库");
     // println!("{:?}", Solution::add_two_numbers(linked_list::vec_to_linked_list(vec![2,4,3]), linked_list::vec_to_linked_list(vec![5,6,4])));
 }
-
-// fn test() -> i32 {
-//     let x: i32 = 1;
-//     loop {
-//         x = 5
-//     }
-// }
