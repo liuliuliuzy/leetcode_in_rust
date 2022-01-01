@@ -5,3 +5,4 @@ pub mod n0027_remove_elements;
 pub mod n0035_search_insert_position;
 pub mod n0053_maximum_subarray;
 pub mod n2022_convert_1d_array_into_2d_array;
+pub mod n0061_plus_one;
