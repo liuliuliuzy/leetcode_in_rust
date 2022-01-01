@@ -73,7 +73,10 @@ impl Solution {
     }
 
     // 更加节省空间的做法
-    pub fn add_two_numbers_v2(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>>{
+    pub fn add_two_numbers_v2(
+        l1: Option<Box<ListNode>>,
+        l2: Option<Box<ListNode>>,
+    ) -> Option<Box<ListNode>> {
         let mut first = Some(Box::new(ListNode::new(0)));
         let mut next = &mut first;
         let mut num = 0;

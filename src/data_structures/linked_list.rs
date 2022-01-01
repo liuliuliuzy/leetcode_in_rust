@@ -29,6 +29,5 @@ pub fn vec_to_linked_list(vec: Vec<i32>) -> Option<Box<ListNode>> {
 }
 
 // pub fn linked_list_to_vec(head: Option<Box<ListNode>>) -> Vec<i32> {
-    
+
 // }
- 

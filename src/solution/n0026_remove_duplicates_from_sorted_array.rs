@@ -34,7 +34,7 @@ impl Solution {
             fast += 1;
         }
         // 从头开始截取slow+1长度的元素
-        nums.truncate(slow+1);
+        nums.truncate(slow + 1);
         (slow + 1) as i32
     }
 }
@@ -42,11 +42,14 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
-    
+
     #[test]
     fn test_0026() {
-        assert_eq!(Solution::remove_duplicates(&mut(vec![1,2,2,3])), 3);
-        assert_eq!(Solution::remove_duplicates(&mut(vec![1,1,2])), 2);
-        assert_eq!(Solution::remove_duplicates(&mut(vec![0,0,1,1,1,2,2,3,3,4])), 5);
+        assert_eq!(Solution::remove_duplicates(&mut (vec![1, 2, 2, 3])), 3);
+        assert_eq!(Solution::remove_duplicates(&mut (vec![1, 1, 2])), 2);
+        assert_eq!(
+            Solution::remove_duplicates(&mut (vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4])),
+            5
+        );
     }
 }
