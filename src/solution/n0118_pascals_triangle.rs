@@ -35,10 +35,7 @@ mod tests {
 
     #[test]
     fn test_0118() {
-        assert_eq!(
-            Solution::generate(1),
-            vec![vec![1]]
-        );
+        assert_eq!(Solution::generate(1), vec![vec![1]]);
         assert_eq!(
             Solution::generate(3),
             vec![vec![1], vec![1, 1], vec![1, 2, 1]]
