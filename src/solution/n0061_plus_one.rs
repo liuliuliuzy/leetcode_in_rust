@@ -34,16 +34,15 @@ impl Solution {
     }
 }
 
-
 #[cfg(test)]
 
 mod tests {
     use super::*;
-    
+
     #[test]
     fn test_0061() {
-        assert_eq!(Solution::plus_one(vec![4,3,2,1]), vec![4,3,2,2]);
+        assert_eq!(Solution::plus_one(vec![4, 3, 2, 1]), vec![4, 3, 2, 2]);
         assert_eq!(Solution::plus_one(vec![0]), vec![1]);
-        assert_eq!(Solution::plus_one(vec![9,9,9,9]), vec![1,0,0,0,0]);
+        assert_eq!(Solution::plus_one(vec![9, 9, 9, 9]), vec![1, 0, 0, 0, 0]);
     }
 }
