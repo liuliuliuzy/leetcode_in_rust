@@ -37,7 +37,7 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
-    
+
     #[test]
     fn test_0390() {
         assert_eq!(Solution::last_remaining(9), 6);
