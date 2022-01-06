@@ -6,6 +6,7 @@ pub mod n0035_search_insert_position;
 pub mod n0036_valid_sudoku;
 pub mod n0053_maximum_subarray;
 pub mod n0054_spiral_matrix;
+pub mod n0058_length_of_last_word;
 pub mod n0059_spiral_matrix_ii;
 pub mod n0061_plus_one;
 pub mod n0064_minimum_path_sum;

@@ -72,7 +72,9 @@ impl Solution {
         path.split("/").for_each(|level| {
             match level {
                 "." | "" => (),
-                ".." => { queue.pop(); }, // 空的也能pop吗，好像是的...
+                ".." => {
+                    queue.pop();
+                } // 空的也能pop吗，好像是的...
                 _ => queue.push(level),
             }
         });
