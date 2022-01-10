@@ -17,6 +17,7 @@ pub mod n0108_convert_sorted_array_to_binary_search_tree;
 pub mod n0118_pascals_triangle;
 pub mod n0119_pascals_triangle_ii;
 pub mod n0169_majority_element;
+pub mod n0306_additive_number;
 pub mod n0390_elimination_game;
 pub mod n1154_replace_all_s_to_avoid_consecutive_repeating_characters;
 pub mod n1185_day_of_the_week;
