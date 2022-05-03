@@ -21,6 +21,7 @@ impl Solution {
         l2: Option<Box<ListNode>>,
     ) -> Option<Box<ListNode>> {
         // 这里直接赋值会发生 move 吗？
+        // 答案是：会的，Option<T>枚举类型并不是简单类型
         let (mut l1, mut l2) = (l1, l2);
         // 创建头节点，定义一个指向头节点的dummy head
         let mut dummy_head = Some(Box::new(ListNode::new(0)));

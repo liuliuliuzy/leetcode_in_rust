@@ -21,6 +21,7 @@ pub mod n0306_additive_number;
 pub mod n0390_elimination_game;
 pub mod n0821_shortest_distance_to_a_character;
 pub mod n0824_goat_latin;
+pub mod n0937_reorder_data_in_log_files;
 pub mod n1154_replace_all_s_to_avoid_consecutive_repeating_characters;
 pub mod n1185_day_of_the_week;
 pub mod n2022_convert_1d_array_into_2d_array;
