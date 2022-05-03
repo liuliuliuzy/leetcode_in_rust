@@ -10,6 +10,7 @@ pub mod n0058_length_of_last_word;
 pub mod n0059_spiral_matrix_ii;
 pub mod n0061_plus_one;
 pub mod n0064_minimum_path_sum;
+pub mod n0070_climbing_stairs;
 pub mod n0071_simplify_path;
 pub mod n0089_gray_code;
 pub mod n0091_decode_ways;

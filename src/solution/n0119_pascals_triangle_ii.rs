@@ -1,5 +1,6 @@
 pub struct Solution;
 
+// 计算杨辉三角
 impl Solution {
     pub fn get_row(row_index: i32) -> Vec<i32> {
         // 数学方法
@@ -30,6 +31,9 @@ mod tests {
         assert_eq!(Solution::get_row(3), vec![1, 3, 3, 1]);
         assert_eq!(Solution::get_row(0), vec![1]);
         assert_eq!(Solution::get_row(1), vec![1, 1]);
-        assert_eq!(Solution::get_row(10), vec![]);
+        assert_eq!(
+            Solution::get_row(10),
+            vec![1, 10, 45, 120, 210, 252, 210, 120, 45, 10, 1]
+        );
     }
 }
