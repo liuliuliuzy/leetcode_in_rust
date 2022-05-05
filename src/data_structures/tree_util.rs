@@ -2,6 +2,7 @@
  * 树相关数据结构与函数
  * */
 use std::cell::RefCell;
+use std::mem::swap;
 use std::rc::Rc;
 
 #[derive(Debug, PartialEq, Eq)]
@@ -19,6 +20,17 @@ impl TreeNode {
             left: None,
             right: None,
         }
+    }
+}
+
+// swap left & right tree
+pub trait TreeNodeSwap {
+    fn swap(&mut self);
+}
+
+impl TreeNodeSwap for TreeNode {
+    fn swap(&mut self) {
+        swap(&mut self.left, &mut self.right);
     }
 }
 
