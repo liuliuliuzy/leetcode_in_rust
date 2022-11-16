@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 // 验证数独的有效性
 impl Solution {

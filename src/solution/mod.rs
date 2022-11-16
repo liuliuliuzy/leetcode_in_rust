@@ -1,3 +1,6 @@
+// for all files to implement
+pub struct Solution;
+
 pub mod n0001_two_sum;
 pub mod n0002_add_two_numbers;
 pub mod n0026_remove_duplicates_from_sorted_array;
@@ -25,10 +28,12 @@ pub mod n0306_additive_number;
 pub mod n0390_elimination_game;
 pub mod n0436_find_right_interval;
 pub mod n0713_subarray_product_less_than_k;
+pub mod n0775_global_and_local_inversions;
 pub mod n0821_shortest_distance_to_a_character;
 pub mod n0824_goat_latin;
 pub mod n0933_number_of_recent_calls;
 pub mod n0937_reorder_data_in_log_files;
 pub mod n1154_replace_all_s_to_avoid_consecutive_repeating_characters;
 pub mod n1185_day_of_the_week;
+pub mod n1608_special_array_with_x_elements_greater_than_or_equal_x;
 pub mod n2022_convert_1d_array_into_2d_array;

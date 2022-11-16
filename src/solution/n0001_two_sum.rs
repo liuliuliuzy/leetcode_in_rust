@@ -1,5 +1,4 @@
-pub struct Solution;
-
+use super::Solution;
 use std::collections::HashMap;
 
 impl Solution {

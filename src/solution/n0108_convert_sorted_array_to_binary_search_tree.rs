@@ -4,7 +4,7 @@ use crate::data_structures::tree_util::{to_tree, TreeNode};
 use std::cell::RefCell;
 use std::rc::Rc;
 
-pub struct Solution;
+use super::Solution;
 /*
 给你一个整数数组 nums ，其中元素已经按 升序 排列，请你将其转换为一棵 高度平衡 二叉搜索树。
 

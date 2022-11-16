@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 // 允许没有用到的import，消除告警
 #[allow(unused_imports)]

@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 impl Solution {
     pub fn is_additive_number(num: String) -> bool {

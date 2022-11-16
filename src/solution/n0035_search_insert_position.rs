@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 impl Solution {
     // 这题就是实现二分

@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 /**
  * 通过简单题来练习Rust

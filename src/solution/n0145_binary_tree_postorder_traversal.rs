@@ -1,7 +1,7 @@
+use super::Solution;
 use crate::data_structures::tree_util::TreeNode;
 use std::cell::RefCell;
 use std::rc::Rc;
-pub struct Solution;
 
 impl Solution {
     // 任务：使用Rust实现迭代版的二叉树后序遍历

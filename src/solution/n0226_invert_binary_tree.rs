@@ -2,7 +2,7 @@ use std::{cell::RefCell, rc::Rc};
 
 use crate::data_structures::tree_util::{TreeNode, TreeNodeSwap};
 
-pub struct Solution;
+use super::Solution;
 
 impl Solution {
     pub fn invert_tree(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {

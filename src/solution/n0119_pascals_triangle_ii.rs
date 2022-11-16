@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 // 计算杨辉三角
 impl Solution {

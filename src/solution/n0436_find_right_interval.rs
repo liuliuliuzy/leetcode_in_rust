@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 #[derive(PartialEq, Eq, PartialOrd, Ord)]
 struct Pii(i32, i32);

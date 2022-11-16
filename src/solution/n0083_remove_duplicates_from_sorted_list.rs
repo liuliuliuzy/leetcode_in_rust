@@ -1,6 +1,6 @@
+use super::Solution;
 use crate::data_structures::linked_list::ListNode;
 use std::mem;
-pub struct Solution;
 
 impl Solution {
     // 指向节点的指针类型为 Option<Box<ListNode>，所以每个节点最多只有一个可变引用或者都是不可变引用。

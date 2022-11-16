@@ -1,6 +1,6 @@
 use std::{usize, vec};
 
-pub struct Solution;
+use super::Solution;
 
 /**
 给定一个非负整数 numRows，生成「杨辉三角」的前 numRows 行。

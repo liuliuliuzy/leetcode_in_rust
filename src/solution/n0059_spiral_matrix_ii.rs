@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 impl Solution {
     pub fn generate_matrix(n: i32) -> Vec<Vec<i32>> {

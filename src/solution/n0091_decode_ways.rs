@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 /*
 一条包含字母 A-Z 的消息通过以下映射进行了 编码 ：

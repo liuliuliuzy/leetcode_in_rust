@@ -1,6 +1,6 @@
 use std::{collections::HashMap, usize, vec};
 
-pub struct Solution;
+use super::Solution;
 
 #[allow(unused_comparisons)]
 impl Solution {

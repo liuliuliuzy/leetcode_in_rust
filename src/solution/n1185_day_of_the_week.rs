@@ -1,4 +1,4 @@
-pub struct Solution;
+use super::Solution;
 
 /*
 给你一个日期，请你设计一个算法来判断它是对应一周中的哪一天。
