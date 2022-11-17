@@ -1,6 +1,6 @@
 # leetcode in rust
 
-以刷leetcode的方式学习并熟悉Rust的基本语法。
+记录我的力扣rust题解。
 
 模板来源：https://github.com/aylei/leetcode-rust
 
@@ -15,7 +15,3 @@
 ```bash
 cargo test test_xxxx
 ```
-
-## 其它
-
-`./src/main.rs`中可以模仿模板中的`main.rs`，尝试着自己写一些功能函数。
