@@ -1,6 +1,6 @@
 # leetcode in rust
 
-记录我的力扣rust题解。
+记录我的力扣 rust 题解。
 
 模板来源：https://github.com/aylei/leetcode-rust
 
@@ -15,3 +15,5 @@
 ```bash
 cargo test test_xxxx
 ```
+
+英文站的题解则放在`./src/solution_en/`目录下。

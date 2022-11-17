@@ -9,4 +9,4 @@ pub mod data_structures;
 
 // 而且还要保证solution在 #[macro_use] 的后面
 pub mod solution;
-pub mod solution_eng;
+pub mod solution_en;
