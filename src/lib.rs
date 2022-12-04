@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 // 在这里声明 data_structures 模块，Rust 才能识别到 data_structure/mod.rs 中的定义
 // what's more
 // #[macro_use] 导出data_structures 中的宏，这样就能够在测试代码中直接使用宏
