@@ -53,3 +53,4 @@ pub mod n1774_closest_dessert_cost;
 pub mod n1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
 pub mod n1796_second_largest_digit_in_a_string;
 pub mod n2022_convert_1d_array_into_2d_array;
+pub mod n1805_number_of_different_integers_in_a_string;
